@@ -1,0 +1,9 @@
+//	CREATES A STACK OF 99 ADAMANTINE ARROWS
+//
+//	ROBERT HARRIS	ROBERTHARRIS@ROBERTHARRIS.COM	06/28/2010
+//
+void main()
+{
+	CreateItemOnObject("nx2_arrow_adam", GetItemActivator(), 99);
+	if (GetItemCharges(GetItemActivated()) == 0) DestroyObject(GetItemActivated());
+}

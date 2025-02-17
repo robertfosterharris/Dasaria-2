@@ -1,0 +1,8 @@
+//	CREATES A STACK OF 99 BULLETS
+//
+//	ROBERT HARRIS	ROBERTHARRIS@ROBERTHARRIS.COM	03/03/2007
+//
+void main()
+{
+	CreateItemOnObject("NW_WAMBU001", GetItemActivator(), 99);
+}
